@@ -1,3 +1,6 @@
+Date completed Git Lab tutorials: 15 OCT 2026
+Date Github account was created: Around December 2023
+
 1. [master 9dccb4f] Add repository status documentation
     1 file changed, 9 insertions(+)
     create mode 100644 docs/status.txt
