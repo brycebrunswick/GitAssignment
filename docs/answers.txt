@@ -1,0 +1,34 @@
+1. [master 9dccb4f] Add repository status documentation
+    1 file changed, 9 insertions(+)
+    create mode 100644 docs/status.txt
+
+2. I used git rev-list --count HEAD
+          9
+
+3. Using the command git log -1 --format="%ad" --date=local -- README.md
+                     Sun Oct 18 18:39:07 2026
+
+4. Branches allow developers to work on new features without affecting the main version of the project.
+They also allow multiple developers to work on different changes at the same time and merge their work when it is ready.
+
+5. git log shows the history of commits made to the repository, including commit messages, authors, and dates.
+git status shows the current state of the working directory, including modified files, staged files, and untracked files
+
+6. git log --all -- Vehicle.h
+
+7. git log --all --grep="file"
+
+8. Inheritance allows one class to inherit properties and functions from another class.
+
+Polymorphism allows objects of different classes to be used through a common interface while performing different actions.
+
+Encapsulation involves keeping data and related functions together inside a class while controlling access to the data.
+
+9. In the Integration Manager workflow, contributors submit their changes to one integration manager who reviews and
+merges them into the main repository. In the Dictator and Lieutenants workflow, multiple lieutenants review and combine
+changes from smaller groups before sending them to a central maintainer. This makes it easier to manage contributions
+from larger teams.
+
+10. A team of 100 developers would benefit because the work could be divided into smaller groups, with each lieutenant
+responsible for reviewing and managing changes from their group. This reduces the number of changes going directly to
+the main maintainer and helps prevent merge conflicts and bottlenecks.
